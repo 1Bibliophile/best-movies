@@ -1,3 +1,32 @@
 .App {
     text-align: center;
 }
+document {
+    background-color: black;
+}
+#header {
+    color: #FFCB05;
+    background-color: #00274C;
+    padding-bottom: 5px;
+}
+#big-title {
+    font-weight: normal;
+    font-size: xx-large;
+}
+#small-title {
+    font-style: italic;
+}
+
+.movie-card img {
+    /*background-color: #00274C;*/
+    align-items: center;
+    margin: 20px;
+    width: 30%;
+    height: 40%;
+    cursor: pointer;
+}
+.movie-card {
+    padding-top: 2px;
+    background-color: #00274C;
+    color: white;
+}
