@@ -1,10 +1,11 @@
 import { useState } from "react"
 
-export const MoviesFilter = () => {
+export const MoviesFilter = ({handleSearch}) => {
     const [search, setSearch] = useState("")
     
     const handleChange = e => {
         setSearch(e.target.value)
+        handleSearch(search)
     }
 
     return (

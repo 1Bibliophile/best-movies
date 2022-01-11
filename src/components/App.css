@@ -7,11 +7,13 @@ document {
 #header {
     background-color: #FFCB05;
     color: #00274C;
-    padding-bottom: 5px;
+    padding-bottom: 1px;
 }
 #big-title {
     font-weight: normal;
-    font-size: xx-large;
+    font-size: 100px;
+    font-family: Helvetica;
+    font-weight: 600;
 }
 #small-title {
     font-style: italic;

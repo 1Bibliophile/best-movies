@@ -1,15 +1,14 @@
 import { NavLink } from "react-router-dom"
 
 const style = {
-    width: "60%",
+    width: "70%",
     margin: "5% 0 1%",
     padding: "3em",
     textDecoration: "none",
     color: "black",
     backgroundColor: "rgb(255, 203, 5)",
     fontWeight: "bold",
-    verticalAlign: "center",
-    paddingBottom: "10px"
+    verticalAlign: "center"
 }
 
 export const Navbar = () =>  {
