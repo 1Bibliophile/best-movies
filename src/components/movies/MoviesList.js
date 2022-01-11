@@ -5,7 +5,7 @@ export const MoviesList = ({movies}) => {
         <MovieCard key={movie.id} movie={movie}/>)
     
     return (
-        <div>
+        <div id="movies-list">
             {moviesCards}
         </div>
     )

@@ -22,10 +22,13 @@ export const MoviesContainer = () =>  {
         fetchData()
     }, [])
 
+    const handleSearch = () => {
+        
+    }
 
     return (
         <div>
-            <MoviesFilter />
+            <MoviesFilter handleSearch={handleSearch}/>
             <MoviesList movies={movies}/>
         </div>
     )

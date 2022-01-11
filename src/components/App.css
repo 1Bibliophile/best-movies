@@ -18,15 +18,28 @@ document {
 }
 
 .movie-card img {
-    /*background-color: #00274C;*/
+    width: 15em;
+    height: 20em;
+    /*background-color: #00274C;
     align-items: center;
     margin: 20px;
-    width: 30%;
-    height: 40%;
-    cursor: pointer;
+    cursor: pointer;*/
 }
-.movie-card {
+
+#movie-card img {
+    width: 300px;
+    border: solid;
+    margin: auto;
+}
+
+#movies-list {
     padding-top: 2px;
     background-color: #00274C;
     color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#name-date {
+    font-family: Helvetica;
 }
