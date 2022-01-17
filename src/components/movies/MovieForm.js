@@ -27,7 +27,14 @@ export const MovieForm = () => {
             body: JSON.stringify(newMovie)
         })
 
+        setName("")
+        setDate("")
+        setImage("")
+        setRated("")
+        setRating("")       
     }
+
+    
 
     const handleClick = () => {
 
