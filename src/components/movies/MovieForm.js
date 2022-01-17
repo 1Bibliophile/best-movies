@@ -11,12 +11,32 @@ export const MovieForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
 
+        if([name, date, image, rated, rating].some(value => value.trim() === "")){
+            alert("Please complete all fields")
+
+            return null
+        }
+
+        const newMovie = {name, date, image, rated, rating}
+
+        fetch('http://localhost:3000/movies', {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(newMovie)
+        })
+
+    }
+
+    const handleClick = () => {
 
     }
     
     
     return (
         <div>
+            <br></br>
             <form className="movie-form"
              onSubmit={handleSubmit}>
                 <label htmlFor="name">Name: </label>
@@ -39,6 +59,10 @@ export const MovieForm = () => {
                 <label htmlFor="rating">Movie Rating: </label>
                 <input onChange={e => setRating(e.target.value)} type="text" 
                 name="rating" id="rating" value={rating}/><br />
+
+                <br />
+                <input type="submit" value="Create" onClick={handleClick}/>
+                    
             </form>
         </div>
     )
