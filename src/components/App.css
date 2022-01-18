@@ -1,12 +1,12 @@
 .App {
     text-align: center;
 }
-document {
-    background-color: black;
+.nav {
+    background-color: darkblue;
 }
 #header {
-    background-color: #FFCB05;
-    color: #00274C;
+    background-color: darkblue;
+    color: white;
     padding-bottom: 1px;
 }
 #big-title {
@@ -17,6 +17,7 @@ document {
 }
 #small-title {
     font-style: italic;
+    font-size: xx-large; 
 }
 
 .movie-card img {
@@ -36,10 +37,10 @@ document {
 
 #movies-list {
     padding-top: 2px;
-    background-color: #00274C;
+    background-color: darkblue;
     color: white;
-    display: flex;
-    flex-wrap: wrap;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
 }
 
 #name-date {

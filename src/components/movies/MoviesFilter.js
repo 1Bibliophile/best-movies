@@ -9,7 +9,7 @@ export const MoviesFilter = ({handleSearch}) => {
     }
 
     return (
-        <div>
+        <div className="filter">
             <input type="text" placeholder="Enter a movie..."
              value={search} onChange={handleChange}/>
         </div>

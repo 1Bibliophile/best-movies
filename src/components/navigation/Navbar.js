@@ -2,18 +2,18 @@ import { NavLink } from "react-router-dom"
 
 const style = {
     width: "70%",
-    margin: "5% 0 1%",
-    padding: "3em",
+    //margin: "5% 0 1%",
+    padding: "2em",
     textDecoration: "none",
-    color: "black",
-    backgroundColor: "rgb(255, 203, 5)",
+    color: "white",
+    backgroundColor: "darkblue",
     fontWeight: "bold",
     verticalAlign: "center"
 }
 
 export const Navbar = () =>  {
     return (
-        <div>
+        <div className="nav">
             <NavLink
                 activeStyle={{
                     fontWeight: "bolder",

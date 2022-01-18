@@ -15,7 +15,7 @@ function App() {
         <div className="App">
             <Router>
                 <Navbar />
-                <Header bigTitle="TOP MOVIES"
+                <Header bigTitle="BEST MOVIES"
                         smallTitle="What to watch"/>
             
 
