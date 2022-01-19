@@ -30,10 +30,12 @@
     cursor: pointer;*/
 }
 
-#movie-card img {
+#movie-card {
     width: 300px;
     border: solid;
+    border-width: 2em;
     margin: auto;
+    background-color: black;
 }
 
 #movies-list {
@@ -53,6 +55,6 @@
 }
 
 .home {
-    background-color: darkblue;
-    color: white;
+    
+    color: darkblue;
 }
