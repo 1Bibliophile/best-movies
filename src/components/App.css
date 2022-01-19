@@ -10,6 +10,7 @@
     padding-bottom: 1px;
 }
 #big-title {
+    color: #FFCB05;
     font-weight: normal;
     font-size: 100px;
     font-family: Helvetica;
@@ -45,4 +46,13 @@
 
 #name-date {
     font-family: Helvetica;
+}
+
+.filter {
+    background-color: darkblue;
+}
+
+.home {
+    background-color: darkblue;
+    color: white;
 }

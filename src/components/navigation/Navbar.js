@@ -17,7 +17,7 @@ export const Navbar = () =>  {
             <NavLink
                 activeStyle={{
                     fontWeight: "bolder",
-                    color: "red"
+                    color: "#FFCB05"
                 }}
                 exact
                 style={style}
@@ -29,7 +29,7 @@ export const Navbar = () =>  {
             <NavLink
                 activeStyle={{
                     fontWeight: "bolder",
-                    color: "red"
+                    color: "#FFCB05"
                 }}
                 exact
                 style={style}
@@ -41,7 +41,7 @@ export const Navbar = () =>  {
             <NavLink
                 activeStyle={{
                     fontWeight: "bolder",
-                    color: "red"
+                    color: "#FFCB05"
                 }}
                 exact
                 style={style}
@@ -53,7 +53,7 @@ export const Navbar = () =>  {
             <NavLink
                 activeStyle={{
                     fontWeight: "bolder",
-                    color: "red"
+                    color: "#FFCB05"
                 }}
                 exact
                 style={style}
