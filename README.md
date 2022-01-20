@@ -4,9 +4,9 @@
 
 Best Movies is a React application that allows the user to view ten of the highest rated movies of all time and add their own favorites to the list. In the Home page, there is a breakdown of what the application does and what the user can expect after clicking each link in the top navigation bar. 
 
-Clicking the 'New Movies' link allows the user to add a new movie to the list. In the 'Movies', there is a list of ten movies (plus any other movies added by the user). Each tile contains the movie's title and date, the MPAA rating, the IMDB rating, and an image of the movie.
+Clicking the ```New Movies``` link allows the user to add a new movie to the list. In the ```Movies```, there is a list of ten movies (plus any other movies added by the user). Each tile contains the movie's title and date, the MPAA rating, the IMDB rating, and an image of the movie.
 
-The 'About' link contains informative links about the application's blog, video and a link to this GitHub repo as well.
+The ```About``` link contains informative links about the application's blog, video and a link to this GitHub repo as well.
 
 ## Installation
 
